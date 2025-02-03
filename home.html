@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Waitlist Introduction</title>
+    <style>
+        body {
+            background-image: url(images/library\ image.jpeg);
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+        }
+        .header {
+            background-color: none;
+            color: rgb(240, 235, 235);
+            padding: 50px 200px;
+            position: relative;
+        }
+        #buttonhover :hover{
+            color: black;
+            background-color: rgb(12, 11, 11);
+        }
+        .signup-button {
+            position: absolute;
+            top: 20px;
+            right: 20px;
+            background-color: #e67914;
+            border: none;
+            color: white;
+            padding: 10px 15px;
+            border-radius: 5px;
+            cursor: pointer;
+            text-decoration: none;
+        }
+        .content {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: calc(100vh - 50px);
+            text-align: center;
+            margin-top: -90px;
+
+        }
+        #signupstyle :hover{
+            color: black;
+            background-color: antiquewhite;
+
+        }
+        h1 {
+            margin: 0;
+        }
+        p {
+            max-width: 600px;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="header">
+        <a class="signup-button" href="index.php">Sign Up</a>
+        <h1>Welcome to Our Waitlist!</h1>
+    </div>
+
+    <div class="content">
+       <div id="buttonhover">
+        <span ><h1 style="border: 2px solid white; width: 220px; height: 70px; color: white; border-radius: 5px;">Join Our Waitlist</h1></span>
+       </div>
+        <p>
+            <h3 style="color: white;">Thank you for your interest! We are excited to have you on board. 
+                By signing up, you will be added to our waitlist and notified once we have availability.</h3>
+        </p>
+        <p>
+            <h3 style="color: white;">Please click the <span id="signupstyle">"Sign Up"</span> button above to register.</h3>
+        </p>
+    </div>
+
+</body>
+</html>
